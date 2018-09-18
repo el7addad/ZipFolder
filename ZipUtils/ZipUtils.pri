@@ -9,6 +9,6 @@ HEADERS  += $$PWD/zip.h $$PWD/ioapi.h
 
 SOURCES += $$PWD/zip.c $$PWD/ioapi.c $$PWD/*.cpp
 
-linux{
+unix{
     LIBS += -lz
 }

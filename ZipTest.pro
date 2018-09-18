@@ -3,7 +3,7 @@ QT -= gui
 CONFIG += c++11 console
 CONFIG -= app_bundle
 
-include($$PWD/MiniZip/MiniZip.pri)
+include($$PWD/ZipUtils/ZipUtils.pri)
 
 
 # The following define makes your compiler emit warnings if you use
